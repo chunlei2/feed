@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{F69E694C-10DF-4AC1-A5F1-CE6E653571CF}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="index.html" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\index" />
+    <None Include=".git\hooks\README.sample" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\pack\pack-b41249864fbc93aa94758383b8860d81843c0828.idx" />
+    <None Include=".git\objects\pack\pack-b41249864fbc93aa94758383b8860d81843c0828.pack" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="css\icomoon.css" />
+    <None Include="css\normalize.css" />
+    <None Include="css\style.css" />
+    <None Include="fonts\icomoon.eot" />
+    <None Include="fonts\icomoon.svg" />
+    <None Include="fonts\icomoon.ttf" />
+    <None Include="fonts\icomoon.woff" />
+    <None Include="jasmine\spec\feedreader.js" />
+    <None Include="js\app.js" />
+  </ItemGroup>
+</Project>
